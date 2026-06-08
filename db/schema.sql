@@ -20,3 +20,4 @@ CREATE TABLE playlists_tracks (
   track_id INTEGER NOT NULL REFERENCES tracks(id) ON DELETE CASCADE,
   UNIQUE (playlist_id, track_id)
 );
+
